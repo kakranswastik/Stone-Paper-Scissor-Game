@@ -1,13 +1,13 @@
 import random
 
 choices = ["stone", "paper", "scissor"]
-Comp = random.choice(choices)
 print("""
 -----------------------------------------------------------
        Welcome to the Stone, Paper and Scissor game!       
 -----------------------------------------------------------\n""")
 
 while True:
+    Comp = random.choice(choices)
     User = input("Enter your choice {stone, paper or scissor}: ")
 
     if Comp == "stone" and User == "stone":
